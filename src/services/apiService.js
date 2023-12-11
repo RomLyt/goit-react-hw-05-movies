@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 //Унікальний ключ доступу до Themoviedb.org API
-const KEY = '1d0ad6699455ffbc52bd586fd70b6548';
+const KEY = 'a2c12bf9b68d3d35c033469f0d703e8a';
 
 //Функція, що фетчить список популярних фільмів (для сторінки Home)
 export const fetchTrends = async () => {
